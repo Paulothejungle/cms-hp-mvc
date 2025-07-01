@@ -181,7 +181,8 @@ class OrderController extends Controller{
             $singleItem = [[
                 'product_id' => $product['id'],
                 'quantity' => $quantity,
-                'price' => $product['price']
+                'price' => $product['price'],
+                'stock' => $product['stock'],
             ]];
 
             try {
